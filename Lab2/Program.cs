@@ -42,6 +42,7 @@ class Program {
         Guitar guitar2 = new Guitar("Fender", "Stratocaster", "Electric", "Red", 1200.0);
 
         Console.WriteLine(Guitar.RandValue);
+        Console.WriteLine(Guitar.RandValue);
 
         guitar1.PrintFields();
         guitar2.PrintFields();

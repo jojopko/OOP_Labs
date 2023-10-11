@@ -56,8 +56,8 @@ public class InkjetPrinter : Printer
 
 class Program {
     public static void Main(string[] args){
-        LaserPrinter laserPrinter = new LaserPrinter("HP", "LaserJet Pro M15w", true, 20);
-        InkjetPrinter inkjetPrinter = new InkjetPrinter("Canon", "PIXMA MG3620", true, 85);
+        LaserPrinter laserPrinter = new LaserPrinter("HP", "LaserJet Pro M15w", true, 200);
+        InkjetPrinter inkjetPrinter = new InkjetPrinter("Canon", "PIXMA MG3620", true, 800);
 
         laserPrinter.TurnOn();
         laserPrinter.WarmUp();
